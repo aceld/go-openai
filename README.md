@@ -12,9 +12,12 @@ This library provides Go clients for [OpenAI API](https://platform.openai.com/).
 * DALL·E 2
 * Whisper
 
+# fork from  github.com/sashabaranov/go-openai , 由于PR审核效率比较慢，固开此分支自用。
+
+
 Installation:
 ```
-go get github.com/sashabaranov/go-openai
+go get github.com/aceld/go-openai
 ```
 
 
@@ -26,7 +29,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/aceld/go-openai"
 )
 
 func main() {
@@ -69,7 +72,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/aceld/go-openai"
 )
 
 func main() {
@@ -122,7 +125,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/aceld/go-openai"
 )
 
 func main() {
@@ -155,7 +158,7 @@ import (
 	"context"
 	"fmt"
 	"io"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/aceld/go-openai"
 )
 
 func main() {
@@ -204,7 +207,7 @@ import (
 	"context"
 	"fmt"
 
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/aceld/go-openai"
 )
 
 func main() {
@@ -236,7 +239,7 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/aceld/go-openai"
 	"image/png"
 	"os"
 )
@@ -340,7 +343,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sashabaranov/go-openai"
+	"github.com/aceld/go-openai"
 )
 
 func main() {
