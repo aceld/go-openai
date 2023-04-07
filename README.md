@@ -12,7 +12,8 @@ This library provides Go clients for [OpenAI API](https://platform.openai.com/).
 * DALL·E 2
 * Whisper
 
-# fork from  github.com/sashabaranov/go-openai , 由于PR审核效率比较慢，固开此分支自用。
+
+fork from  github.com/sashabaranov/go-openai , 由于PR审核效率比较慢，固开此分支自用。
 
 
 Installation:
